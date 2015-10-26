@@ -39,8 +39,8 @@ export default class Notification extends Component {
       defaultState: {
         position: 'fixed',
         bottom: '2rem',
-        top: '-100%,
-        left: '50%'',
+        top: '-100%',
+        left: '50%',
         height: 20px,
         width: 'auto',
         padding: '1rem',
