@@ -39,7 +39,9 @@ export default class Notification extends Component {
       defaultState: {
         position: 'fixed',
         bottom: '2rem',
-        left: '-100%',
+        top: '-100%,
+        left: '50%'',
+        height: 20px,
         width: 'auto',
         padding: '1rem',
         margin: 0,
@@ -53,7 +55,7 @@ export default class Notification extends Component {
         transition: '.5s cubic-bezier(0.89, 0.01, 0.5, 1.1)'
       },
       activeState: {
-        left: '1rem'
+        top: '2rem'
       }
     };
 
