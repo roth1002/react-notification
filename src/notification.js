@@ -41,7 +41,7 @@ export default class Notification extends Component {
         bottom: '2rem',
         top: '-100%',
         left: '50%',
-        height: 20px,
+        height: '20px',
         width: 'auto',
         padding: '1rem',
         margin: 0,
