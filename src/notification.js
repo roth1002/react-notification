@@ -137,6 +137,7 @@ export default class Notification extends Component {
     return (
       <div className="notification-bar" style={this.getBarStyle()}>
         <div className="notification-bar-wrapper" onClick={this.handleClick}>
+          <span className="ic ic_message_control"></span>
           <span className="notification-bar-message">{this.props.message}</span>
           {this.props.action !== false ? (
             <span className="notification-bar-action" style={this.getActionStyle()}>

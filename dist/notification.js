@@ -142,6 +142,7 @@ var Notification = (function (_Component) {
       _react2['default'].createElement(
         'div',
         { className: 'notification-bar-wrapper', onClick: this.handleClick },
+        _react2['default'].createElement('span', { className: 'ic ic_message_control' }),
         _react2['default'].createElement(
           'span',
           { className: 'notification-bar-message' },
