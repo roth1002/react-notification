@@ -30,7 +30,7 @@
   "homepage": "https://github.com/pburtchaell/react-notification",
   "dependencies": {
     "object-assign": "^2.0.0",
-    "react": "^0.13.3"
+    "react": "^16.13.1"
   },
   "devDependencies": {
     "babel": "^5.5.8",
